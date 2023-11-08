@@ -1,0 +1,7 @@
+com\qa\pages\CartPage.class
+com\qa\basePage\AbstractPage.class
+com\qa\pages\HomePage.class
+com\qa\basePage\BasePage.class
+com\qa\pages\ProductDetailPage.class
+com\qa\analyzer\RetryAnalyzer.class
+com\qa\analyzer\Transformer.class

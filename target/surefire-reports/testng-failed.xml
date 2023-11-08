@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test ran in Chrome Browser(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.testCases.AmazonTest">
+        <methods>
+          <include name="goToHomePage"/>
+          <include name="setUpTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testCases.AmazonTest -->
+    </classes>
+  </test> <!-- Test ran in Chrome Browser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
